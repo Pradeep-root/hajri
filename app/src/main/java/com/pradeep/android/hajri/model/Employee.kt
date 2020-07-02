@@ -1,8 +1,9 @@
 package com.pradeep.android.hajri.model
 
-data class Employee (
-    var firstName : String,
-    var lastName : String,
-    var job : String,
-    var rate : Double
+data class Employee(
+    val firstName: String,
+    val lastName: String,
+    val job: String,
+    val rate: Double,
+    val hajriList : List<Hajri>
 )

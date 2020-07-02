@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "186688794926",
+    "firebase_url": "https://hajri-86bfd.firebaseio.com",
+    "project_id": "hajri-86bfd",
+    "storage_bucket": "hajri-86bfd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186688794926:android:289bdb40d8ca1eca05cabf",
+        "android_client_info": {
+          "package_name": "com.pradeep.android.hajri"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "186688794926-j81b3mk2pdkd95pi28ue09lb03lc7qe7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgdRz3jsI_2bHZrIVzkyR4EGE543LNZ8A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "186688794926-j81b3mk2pdkd95pi28ue09lb03lc7qe7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,4 +1,4 @@
-package com.pradeep.android.hajri.ui
+package com.pradeep.android.hajri.view
 
 import androidx.lifecycle.LiveData
 import com.pradeep.android.hajri.model.Employee

@@ -2,6 +2,7 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
+
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.0"
@@ -29,6 +30,12 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+
+}
+
+ext {
+    //Add the playServices version
+    playServices = "15.0.0"
 }
 
 dependencies {
@@ -44,4 +51,13 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
+    //Add the following lines
+    implementation "com.google.firebase:firebase-core:$playServices"
+    implementation "com.google.firebase:firebase-auth:$playServices"
+    implementation "com.google.firebase:firebase-database:$playServices"
 }
+
+apply plugin: 'com.google.gms.google-services'
+
+
+

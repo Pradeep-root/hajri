@@ -6,6 +6,9 @@ import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import com.pradeep.android.hajri.firebase.FirebaseDatabaseManager
+import com.pradeep.android.hajri.model.Employee
+import com.pradeep.android.hajri.model.Hajri
 
 class MainActivity : AppCompatActivity() {
 
@@ -15,8 +18,12 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(findViewById(R.id.toolbar))
 
         findViewById<FloatingActionButton>(R.id.fab).setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                    .setAction("Action", null).show()
+            val hajriList = mutableListOf<Hajri>()
+            hajriList.add(Hajri(1593718054, 1, 5000))
+            val employee: Employee = Employee("Pradeep", "Deshmukh", "Engineer", 5000.0, hajriList)
+            val employeeList = mutableListOf<Employee>()
+            employeeList.add(employee)
+            FirebaseDatabaseManager().createEmployee(employeeList)
         }
     }
 

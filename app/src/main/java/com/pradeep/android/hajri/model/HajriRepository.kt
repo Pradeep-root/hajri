@@ -1,6 +1,7 @@
 package com.pradeep.android.hajri.model
 
 import androidx.lifecycle.LiveData
+import com.pradeep.android.hajri.model.Employee
 
 interface HajriRepository {
 
