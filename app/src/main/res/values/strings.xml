@@ -9,4 +9,11 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="btn_attendance">Attendance</string>
+    <string name="hint_full_name">Enter Name</string>
+    <string name="hint_role">Enter Role</string>
+    <string name="hint_rate">Enter Rate per day</string>
+    <string name="add_employee">Add Employee</string>
+    <string name="cancel">Cancel</string>
+    <string name="creat_employee">Create Employee</string>
 </resources>
